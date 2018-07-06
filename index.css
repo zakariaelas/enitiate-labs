@@ -1,27 +1,32 @@
 /* This means "select everything" */
 *{
-	font-family: 'Roboto', sans-serif; 	
+	font-family: 'Roboto', sans-serif; /* changes the font of our text */
 }
 
 
 h1{
-	text-align:center;
+	text-align:center; /* center the text */
 }
 
 p{
 	font-size: 18px;
-	line-height: 150%;
+	line-height: 150%; /* controls spacing between lines (of text) */
 }
 
 h3{
 	font-size:30px;
-	text-transform: uppercase;
+	text-transform: uppercase; /* Transforms our text, we're making it uppercase in this case.
+	 Other values can be applied */
 }
+
+
+/* Apply these styles to both h3 and h4 */
 
 h3,h4{
 	font-weight:400;
-	margin:0;
 }
+
+/* Apply these style to every tag that has a class of "headers-3" */
 
 .headers-3{
 	color: #3391FF;
@@ -38,21 +43,23 @@ h4{
 }
 
 a{
-	text-decoration: none;
+	text-decoration: none; /* Changes decoration of the text. It removes the underline 
+	from the a tag. This property can decorate the text in other ways. 
+	Check W3schools or MDN for more */ 
 	color:white;
 }
 
-ol li{
-	text-decoration: line-through;
-}
+/* Select tag that has an id of "facebook" */
 
 #facebook{
 	border:1px solid #3f5c9a;
 	background-color:#3f5c9a;
 }
 
+/* Select tag that has an id of "twitter" */
+
 #twitter{
-	border:1px solid #53a5e4;
+	border:1px solid #53a5e4; /* border : border-width border-style border-color */
 	background-color:#53a5e4;
 }
 
@@ -60,7 +67,7 @@ div{
 	border:10px solid lightgray;
 	padding:10px 15px;
 	width:80%;
-	margin:30px auto;
+	margin:30px auto; /* margin : margin-vertical margin-horizontal; */
 	background-color: white;
 }
 
