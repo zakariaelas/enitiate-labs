@@ -1,0 +1,57 @@
+/* This means "select everything" */
+*{
+	font-family: 'Roboto', sans-serif; 	
+}
+
+h1{
+	text-align:center;
+}
+
+p{
+	font-size: 20px;
+	line-height: 150%;
+}
+
+h3{
+	font-size:30px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.headers-3{
+	color: #3391FF;
+}
+
+ul{
+	list-style: none;
+}
+
+li{
+	font-size:20px;
+	color: #000;
+	line-height: 150%;
+}
+
+h4{
+	font-size:25px;
+}
+
+a{
+	border:1px solid #3f5c9a;
+	text-decoration: none;
+	color:white;
+	background-color:#3f5c9a;
+}
+
+
+div{
+	border:10px solid gray;
+	padding:10px 15px;
+	width:80%;
+	margin:0 auto;
+}
+
+div p{
+	padding-left:30px;
+}
+
