@@ -1,0 +1,76 @@
+/* This means "select everything" */
+*{
+	font-family: 'Roboto', sans-serif; 	
+}
+
+
+h1{
+	text-align:center;
+}
+
+p{
+	font-size: 18px;
+	line-height: 150%;
+}
+
+h3{
+	font-size:30px;
+	text-transform: uppercase;
+}
+
+h3,h4{
+	font-weight:400;
+	margin:0;
+}
+
+.headers-3{
+	color: #3391FF;
+}
+
+li{
+	font-size:18px;
+	color: #000;
+	line-height: 150%;
+}
+
+h4{
+	font-size:25px;
+}
+
+a{
+	text-decoration: none;
+	color:white;
+}
+
+ol li{
+	text-decoration: line-through;
+}
+
+#facebook{
+	border:1px solid #3f5c9a;
+	background-color:#3f5c9a;
+}
+
+#twitter{
+	border:1px solid #53a5e4;
+	background-color:#53a5e4;
+}
+
+div{
+	border:10px solid lightgray;
+	padding:10px 15px;
+	width:80%;
+	margin:30px auto;
+	background-color: white;
+}
+
+div p{
+	padding-left:30px;
+}
+
+
+/* 
+----Challenges---
+
+1) Add a text-shadow property to the h1.
+2) Cross out the first li in your ordered list.
